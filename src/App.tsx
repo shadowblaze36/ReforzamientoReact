@@ -5,6 +5,7 @@ import { Contador } from "./components/Contador";
 import { ContadorConHook } from "./components/ContadorConHook";
 import { Login } from './components/Login';
 import { Usuarios } from './components/Usuarios';
+import { Formularios } from "./components/Formularios";
 
 const App = () => {
   return (
@@ -24,6 +25,8 @@ const App = () => {
       <Login></Login>
       <hr></hr>
       <Usuarios></Usuarios>
+      <hr></hr>
+      <Formularios></Formularios>
     </div>
   )
 }
